@@ -248,7 +248,7 @@
         <div class="quote">"I want to be a Pokémon card collector and seller. I've never changed my dream about something I love."</div>
       </div>
       <div class="card">
-        <div class="avatar"><img src="photos/WhatsApp Image 2026-07-29 at 22.06.14.jpeg" alt="Ms. Anush" style="width:100%;height:100%;object-fit:cover;"></div>
+        <div class="avatar"><img src="photos/anush-work.jpg" alt="Ms. Anush" style="width:100%;height:100%;object-fit:cover;"></div>
         <h3>Ms. Anush</h3>
         <div class="role">social worker — volunteered at an Armenian nursing home</div>
         <div class="quote">"Their dreams were often just one stable connection, one smile, one kind look."</div>
@@ -261,11 +261,10 @@
       </div>
     </div>
 
-    <!-- Галерея с вашими 3 фотографиями работы Ануш с пожилыми людьми -->
     <div class="gallery">
-      <img src="photos/WhatsApp Image 2026-07-29 at 22.15.11.jpeg" alt="Moments from work with elderly groups">
-      <img src="photos/WhatsApp Image 2026-07-29 at 22.15.11 (1).jpeg" alt="Moments from work with elderly groups">
-      <img src="photos/WhatsApp Image 2026-07-29 at 22.15.12.jpeg" alt="Moments from work with elderly groups">
+      <img src="photos/gallery1.jpg" alt="Moments from work with elderly groups">
+      <img src="photos/gallery2.jpg" alt="Moments from work with elderly groups">
+      <img src="photos/gallery3.jpg" alt="Moments from work with elderly groups">
     </div>
     <div class="video-caption">Moments from Anush's work with elderly groups in Armenia.</div>
   </div>
@@ -394,7 +393,7 @@
     <div class="team" style="color:var(--ink);">
       <div class="person">
         <div class="avatar" style="width:64px;height:64px;border-radius:50%;overflow:hidden;margin:0 auto 10px;">
-          <img src="photos/photo_5431517665634752832_y.jpg" style="width:100%;height:100%;object-fit:cover;" alt="Anush">
+          <img src="photos/anush.jpg" style="width:100%;height:100%;object-fit:cover;" alt="Anush">
         </div>
         <div class="name">🇦🇲 Anush</div>
         <div class="task">site + kid interview</div>
@@ -410,7 +409,7 @@
 
       <div class="person">
         <div class="avatar" style="width:64px;height:64px;border-radius:50%;overflow:hidden;margin:0 auto 10px;">
-          <img src="photos/photo_5431517665634752830_y (1).jpg" style="width:100%;height:100%;object-fit:cover;" alt="Nikol">
+          <img src="photos/nikol.jpg" style="width:100%;height:100%;object-fit:cover;" alt="Nikol">
         </div>
         <div class="name">🇺🇦 Nikol</div>
         <div class="task">—</div>
@@ -433,9 +432,8 @@
       </div>
     </div>
 
-    <!-- Zoom Скриншот из загруженного файла -->
     <div class="zoom-shot">
-      <img src="photos/Снимок экрана 2026-07-29 в 21.04.18.png" alt="Zoom screenshot" style="width:100%;border-radius:16px;display:block;" onerror="this.style.display='none'; this.insertAdjacentHTML('afterend', '<div class=&quot;zoom-inner&quot;>📷</div>');">
+      <img src="photos/zoom-screenshot.png" alt="Zoom screenshot" style="width:100%;border-radius:16px;display:block;" onerror="this.style.display='none'; this.insertAdjacentHTML('afterend', '<div class=&quot;zoom-inner&quot;>📷</div>');">
     </div>
   </div>
 </div>
@@ -485,7 +483,6 @@
   }
   updateSlider(8);
 
-  // floating old/young stickers
   const stickerSVGs = [
     `<svg viewBox="0 0 100 100"><path d="M8 50 L92 15 L60 90 L48 60 L8 50 Z" fill="#FFC93C" stroke="#1C1712" stroke-width="4" stroke-linejoin="round"/><path d="M48 60 L92 15" stroke="#1C1712" stroke-width="3" fill="none"/></svg>`,
     `<svg viewBox="0 0 100 100"><ellipse cx="50" cy="38" rx="30" ry="34" fill="#FF5A45" stroke="#1C1712" stroke-width="4"/><path d="M50 72 L50 95" stroke="#1C1712" stroke-width="4" fill="none"/><path d="M46 74 L54 78 L46 82" stroke="#1C1712" stroke-width="3" fill="none"/></svg>`,
@@ -511,7 +508,6 @@
     }
   }
 
-  // quiz logic
   document.querySelectorAll('.q-block').forEach(block=>{
     const answer = parseInt(block.dataset.answer);
     const feedback = block.querySelector('.q-feedback');
